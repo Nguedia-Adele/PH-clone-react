@@ -1,0 +1,10 @@
+.product-tile {
+	border-bottom: 1px solid #e8e8e8;
+	background-color: #fff;
+	padding: 20px 22px;
+}
+
+.post-thumbnail {
+	width: 80px;
+	height: 80px;
+}
