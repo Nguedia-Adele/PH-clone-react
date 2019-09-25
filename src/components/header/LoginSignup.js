@@ -8,7 +8,6 @@ class LoginSignup extends React.Component {
 				<Link to="/login">
 					<button
 						className="button button-white"
-						component={Link}
 						to="/login">
 							LOG IN
 					</button>
@@ -16,8 +15,7 @@ class LoginSignup extends React.Component {
 
 				<Link to="/signup">
 					<button
-						className="button button-orange" 
-						component={Link}
+						className="button button-orange"
 						to="/signup">
 							SIGNUP
 					</button>
