@@ -1,4 +1,6 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
+
 import logo from '../../images/logo.png'
 import '../../styles/header.css'
 
@@ -12,7 +14,9 @@ class HeaderContainer extends React.Component {
 			<div className="px-9 mx-auto bg-white">
 				<div className="navbar py-2">
 					<div className="d-flex">
-						<img src={logo} alt="logo" className="logo"/>
+						<Link to="/">
+							<img src={logo} alt="logo" className="logo"/>
+						</Link>
 						<Searchbar/>
 						<Navigation/>
 					</div>

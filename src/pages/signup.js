@@ -8,8 +8,8 @@ class signup extends React.Component {
 			<div>
 				<div>
 					<div className="center-div">
-						<form action="" className="border border-light rounded p-5 bg-white shadow-sm">
-						<img src={logo} alt="Logo" className="logo"/>
+						<form action="" className="border border-light rounded px-5 py-4 bg-white shadow-sm">
+						<img src={logo} alt="Logo" className="logo-auth"/>
 							<h3 className="text-muted mb-3">SIGNUP</h3>
 							<div>
 								<input 
@@ -48,7 +48,7 @@ class signup extends React.Component {
 							</div>
 
 							<div className="text-center">
-								<button className="mt-4"
+								<button className="button-auth mt-4"
 									id="login"
 									type="submit">SIGNUP
 								</button>

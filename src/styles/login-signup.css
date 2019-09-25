@@ -1,8 +1,8 @@
 input {
-  width: 300px;
-  height: 35px;
+  width: 350px;
+  height: 40px;
   padding: 4px 25px 4px 10px;
-  margin: 10px 20px auto 0;
+  margin: 15px 20px auto 0;
   display: inline-block;
   border: 1px solid #aaa;
   border-radius: 2px;
@@ -15,7 +15,7 @@ input {
   opacity: 1; /* Firefox */
 }
 
-button {
+.button-auth {
   padding: 5px 15px;
   text-align: center;
   text-decoration: none;
@@ -29,10 +29,10 @@ button {
   margin-left: 2px;
 }
 
-.logo {
+.logo-auth {
   width: 50px;
   height: 50px;
-  margin: -100px auto 10px auto;
+  margin: -65px auto 10px auto;
   border-radius: 50%;
 }
 
