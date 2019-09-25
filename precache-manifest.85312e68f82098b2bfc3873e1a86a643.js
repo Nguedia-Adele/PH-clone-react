@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "90631d8e87bfc3d1097c5ea40162aebf",
+    "revision": "b840d07e9636bf1eb16004ea3625d3e8",
     "url": "/PH-clone-react/index.html"
   },
   {
-    "revision": "cfdff97a36c50140971a",
+    "revision": "29761aeaa7d44a20a6b7",
     "url": "/PH-clone-react/static/css/2.d7a94725.chunk.css"
   },
   {
-    "revision": "e29e9479636fb956186d",
-    "url": "/PH-clone-react/static/css/main.d0c5eae1.chunk.css"
+    "revision": "f22cdc51fe43d53cd156",
+    "url": "/PH-clone-react/static/css/main.71fa8bc0.chunk.css"
   },
   {
-    "revision": "cfdff97a36c50140971a",
-    "url": "/PH-clone-react/static/js/2.5d81ced4.chunk.js"
+    "revision": "29761aeaa7d44a20a6b7",
+    "url": "/PH-clone-react/static/js/2.d699a5e7.chunk.js"
   },
   {
-    "revision": "e29e9479636fb956186d",
-    "url": "/PH-clone-react/static/js/main.674eb7d3.chunk.js"
+    "revision": "f22cdc51fe43d53cd156",
+    "url": "/PH-clone-react/static/js/main.d4a6d0f8.chunk.js"
   },
   {
     "revision": "e53a08f275455300723a",
