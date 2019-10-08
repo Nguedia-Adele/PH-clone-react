@@ -45,3 +45,8 @@ input {
 form {
   display: inline-block;
 }
+
+.error-message {
+  font-size: 10px;
+  color: red;
+}

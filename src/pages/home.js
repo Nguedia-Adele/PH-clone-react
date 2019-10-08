@@ -2,7 +2,7 @@ import React from 'react'
 import axios from 'axios'
 
 import PopularDiscussions from '../components/popular-discussion/PopularDiscussions'
-import ProductList from '../components/posts/ProductList'
+import ProductPost from '../components/posts/ProductPost'
 import MakersToday from '../components/makers/MakersToday'
 
 class home extends React.Component {
@@ -10,25 +10,28 @@ class home extends React.Component {
 		posts: null
 	}
 	componentDidMount() {
-		axios.get('https://europe-west1-social-ba697.cloudfunctions.net/api/posts')
+		axios.get('/posts')
 			.then(res => {
 				console.log(res.data)
 				this.setState({
 					posts: res.data
 				})
 			})
-			.catch (err => console.log(err.phase));
+			.catch (err => console.log(err));
 	}
 	render() {
 		let recentPostsMarkup = this.state.posts ? (
-			this.state.posts.map(post => <p>{post.body}</p>)
+			this.state.posts.map(post => <ProductPost key={post.postId} post={post}/>)
 		) : <p>Loading...</p>
+
 		return (
 			<div className="row px-10 pt-4 mx-auto">
 				<main className="col-8">
-					{recentPostsMarkup}
 					<PopularDiscussions/>
-					<ProductList/>
+					<div className="mt-4">
+						<p><big>Product List</big></p>
+						{recentPostsMarkup}
+					</div>
 				</main>
 				<aside className="col-4 pt-3">
 					<MakersToday/>

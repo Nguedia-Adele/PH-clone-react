@@ -6,6 +6,7 @@
   "dependencies": {
     "axios": "^0.19.0",
     "gh-pages": "^2.1.1",
+    "jwt-decode": "^2.2.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-router-dom": "^5.0.1",
@@ -32,7 +33,7 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
-    ],
-    "proxy": "https://europe-west1-social-ba697.cloudfunctions.net/api"
-  }
+    ]
+  },
+  "proxy": "https://europe-west1-social-ba697.cloudfunctions.net/api"
 }
